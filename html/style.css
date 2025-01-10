@@ -1,0 +1,17 @@
+body {
+    background-color: gray;
+}
+
+h1 {
+    background-color:dimgray;
+    color: rgb(74, 190, 152);
+    text-align: center;
+    text-decoration: wavy;
+}
+
+h2 {
+    background-color:dimgray;
+    color: rgb(78, 226, 226);
+    text-align: center;
+    text-decoration: dotted;
+}
