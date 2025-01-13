@@ -18,5 +18,24 @@ h2 {
 }
 
 .b1 {
-    
+    text-align: center;
+    width: 205px;
+    height: 100px;
+    margin: 20px;
+    padding: 5px;
+    border: 6px solid black;
+    background-color: dimgray;
+
+}
+
+.block {
+    text-align: center;
+    width: 205px;
+    height: 212px;
+    margin-top: 20px;
+    padding: 10px;
+
+    border: 6px solid black;
+    background-color: dimgray;
+
 }
