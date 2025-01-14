@@ -36,3 +36,9 @@ body {
     top: 50px;
     left: 50px;
 }
+
+.b4 {
+    position: fixed;
+    top: 20px;
+    right: 20px;
+}
