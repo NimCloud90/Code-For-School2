@@ -23,19 +23,21 @@ h2 {
     height: 100px;
     margin: 20px;
     padding: 5px;
+    position: middle;
     border: 6px solid black;
     background-color: dimgray;
-
+    color: rgb(81, 170, 141);
 }
 
 .block {
     text-align: center;
     width: 205px;
     height: 212px;
-    margin-top: 20px;
+    margin-top: 10px;
+    margin-bottom: 20px;
     padding: 10px;
 
     border: 6px solid black;
     background-color: dimgray;
-
+    color:  rgb(81, 170, 141);;
 }
