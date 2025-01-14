@@ -1,0 +1,14 @@
+body {
+    background-color: coral;
+    font-size: 20px;
+    font-family: Gill Sans;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    position: relative;
+    width: 300px;
+    height: 200px;
+    background-color: rgb(173, 104, 173);
+}
