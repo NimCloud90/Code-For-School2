@@ -19,12 +19,14 @@ h2 {
 
 .b1 {
     text-align: center;
+    display: block;
     width: 205px;
     height: 100px;
     margin: 20px;
     padding: 5px;
     position: middle;
     border: 6px solid black;
+    border-radius: 60px;
     background-color: dimgray;
     color: rgb(81, 170, 141);
 }
@@ -33,11 +35,16 @@ h2 {
     text-align: center;
     width: 205px;
     height: 212px;
-    margin-top: 10px;
+    margin: 10px;
     margin-bottom: 20px;
     padding: 10px;
-
     border: 6px solid black;
+    border-radius: 60px;
     background-color: dimgray;
     color:  rgb(81, 170, 141);;
+}
+
+.absolute-positioned {
+    position: absolute;
+    left: 550px;
 }
