@@ -19,6 +19,7 @@ body {
     padding: 10px;
     background-color: rgb(230, 138, 105);
     border: 2px solid rgb(192, 99, 192);
+    border-radius: 20px;
 }
 
 .b1 {
