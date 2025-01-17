@@ -24,6 +24,10 @@ console.log(`After sales: ${inventory}`);
 inventory += 20;
 console.log(`Final inventory: ${inventory}`);
 
-
+let totalPrice = 120;
+const discountPrice = 15;
+const taxRate = 10;
+const total = totalPrice * discountPrice * 10;
+console.log(`Total price: $${total.toFixed(2)}`)
 
 
