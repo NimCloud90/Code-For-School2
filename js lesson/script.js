@@ -15,5 +15,15 @@ const tax = 7;
 const total = totalPrice + Price * 7;
 console.log(`Total price: $${total.toFixed(2)}`)
 
+let inventory = 100;
+console.log(`Initial inventory: ${inventory}`);
+
+inventory -= 15;
+console.log(`After sales: ${inventory}`);
+
+inventory += 20;
+console.log(`Final inventory: ${inventory}`);
+
+
 
 
