@@ -7,4 +7,7 @@ const person = {
     }
 };
 
-console.log(person.name);
+person.name = 'Alice'
+person['age'] = 25;
+console.log(person.name,
+person.age);
