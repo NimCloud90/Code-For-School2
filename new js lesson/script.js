@@ -16,3 +16,9 @@ car.getInfo();
 const element = document.getElementById('carrrrss');
 element.textContent = 'console isnt working?'
 console.log(element);  
+
+const button = document.getElementById('carrrrss');
+button.addEventListener('click', function() {
+    element.style.color = 'red';
+}
+);
