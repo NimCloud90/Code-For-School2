@@ -22,3 +22,6 @@ button.addEventListener('click', function() {
     element.style.color = 'red';
 }
 );
+
+const element = document.getElementById('this');
+element.addEventListener
