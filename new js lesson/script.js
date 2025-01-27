@@ -23,5 +23,8 @@ button.addEventListener('click', function() {
 }
 );
 
-const element = document.getElementById('this');
-element.addEventListener
+const paragraph = document.getElementById('this');
+paragraph.addEventListener('click', function() {
+    paragraph.textContent = 'the pigeons in Times Square have been replaced by robots'
+}
+);
