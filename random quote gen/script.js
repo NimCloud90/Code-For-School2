@@ -4,6 +4,9 @@ const quotes = [
     "The phoenix enters. It is wearing a tophat and it is *very angry*. - El",
     "Can we disregard the reality warping rats for a moment? - Freya",
     "Caroline is teaching Ezra how to do drugs. - Shay",
+    "I have an idea. - Aleph before announcing the worst plan ever",
+    "Oh, you don't know about the Bagel Dimension. -Jackson",
+    "I kick him anyway it's still gonna hurt! -Freya",
     
 ]
 
