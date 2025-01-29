@@ -101,7 +101,9 @@ const quotes = [
     "'I pulled this shit from the aether and you're giving it back!?' -EL",
     "'Shaylee, how do you feel about Pussy?' - El",
     "'Shay, do you have the hots for the wrestler milf?' - Freya",
-]
+    "'We Stan an unbothred king.' - Shay",
+    "'Oh look at me, I'm the one in the closet now, Nile!' - El",
+];
 
 document.getElementById('button').addEventListener('click', () => {
     const randomIndex = Math.floor(Math.random() * quotes.length);
