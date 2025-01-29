@@ -5,8 +5,10 @@ const quotes = [
     "Can we disregard the reality warping rats for a moment? - Freya",
     "Caroline is teaching Ezra how to do drugs. - Shay",
     "I have an idea. - Aleph before announcing the worst plan ever",
-    "Oh, you don't know about the Bagel Dimension. -Jackson",
-    "I kick him anyway it's still gonna hurt! -Freya",
+    "Oh, you don't know about the Bagel Dimension. - Jackson",
+    "I kick him anyway it's still gonna hurt! - Freya",
+    "The other pumpkins get angry at you. -Freya",
+    "heyyyyy mam did you know i have a plus two to boat handling.  -el to the living boat",
     
 ]
 
