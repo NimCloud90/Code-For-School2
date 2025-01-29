@@ -65,7 +65,7 @@ const quotes = [
     "'I thought because you look so attractive and cute, you've already had a relationship?' - Shay (Nile)",
     "'Detroit: Become Plant.' - Shay",
     "(angrily) 'I'm getting back in the sink!' - Daisy (El)",
-    "'I want to smoke daisy like a blunt.' - Ellie",
+    "'I want to smoke daisy like a blunt.' -  Freya",
     "'Want a turnip? Want a turnip? I took out the Nightshade just for you.' Daisy (El)",
     "'Yeah, yeah I've cried before' 'I haven't' - Shay & El",
     "'You know what, we made Splatoon cannon, Fuck it.' - El",
@@ -75,13 +75,13 @@ const quotes = [
     "'Poor traumatized white boy' - Shay",
     "'Why wouldn't you pick the orphans?' - Shay",
     "'Sylvester needs a boyfriend' 'Sylvester's an asshole' - Cyrus & El",
-    "'I'm sorry for this but while Gota calls Violet mom, Rose is calling Grim mommy.' Ellie",
+    "'I'm sorry for this but while Gota calls Violet mom, Rose is calling Grim mommy.'  Freya",
     "'NO NO NO STOP NO' - literally everyone else",
     "'What is a dating' - Shay",
     "Lines going up and down, in a flannel way.",
     "'I want to take off home is where the heart is....fuck I'm short.....thank you, I'm going to find a place to burn this.' El (as Daisy)",
     "'Am I the leader of a *fucking revolution?*' - Freya",
-    "'I can make it quick and painless.' 'I can make it slow and painful.' 'Blur bu blur de bur' - Ellie & El & Shay",
+    "'I can make it quick and painless.' 'I can make it slow and painful.' 'Blur bu blur de bur' -  Freya & El & Shay",
     "'Wait, you go under the bleachers?' 'Yeah?' 'Shit! I hid something down there!' - El, Shaylee, El",
     "'It's just one very bad game of clue.' - Shay",
     "'It's called ultimate frisbee for a reason.' - El",
@@ -98,8 +98,9 @@ const quotes = [
     "'Olimar? From hit Nintendo series Pikmin? - Shay 'You know what, forget what his name was, his name is Olimar now.' - El",
     "'I call them soul-ovens.' - Freya",
     "'We can't weave. We can't mine. We're rats.' 'You can cook.' 'What?' '*sings that stupid song from Ratatouille*' - El and Freya respectively again",
-    
-
+    "'I pulled this shit from the aether and you're giving it back!?' -EL",
+    "'Shaylee, how do you feel about Pussy?' - El",
+    "'Shay, do you have the hots for the wrestler milf?' - Freya",
 ]
 
 document.getElementById('button').addEventListener('click', () => {
