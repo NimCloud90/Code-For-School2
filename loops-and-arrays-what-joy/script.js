@@ -31,4 +31,4 @@ while (count > 0) {
     count--;
 };
 
-const user = ['Yumio', 'Scooter', 'Basil';]
+const names = ['Katya', 'Curie', 'Basil'];
