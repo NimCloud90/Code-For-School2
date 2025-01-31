@@ -15,6 +15,12 @@ console.log(todoList);
 
 // console.log(evens);
 
-const numbers = [1, 2, 3, 4];
-numbers[0, 1, 2, 3] = 2, 4, 1, 3;
-console.log(numbers);
+// const numbers = [1, 2, 3, 4];
+// numbers[0] = 2;
+// numbers[1] = 3;
+// numbers[2] = 1;
+// numbers[3] = 4;
+// console.log(numbers);
+
+
+const numbers = [1, 2, 3, 4, 5, 6];
