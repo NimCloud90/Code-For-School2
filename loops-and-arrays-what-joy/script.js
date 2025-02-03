@@ -32,3 +32,6 @@ while (count > 0) {
 };
 
 const names = ['Katya', 'Curie', 'Basil'];
+console.log(`Welcome to the Bagel Demension ${'Basil'}!`);
+console.log(`Welcome back to the rest of your life ${'Curie'}, here, take a tazer!`);
+console.log(`Hope you have fun with the terrifying Eldritch magic ${'Katya'}!`);
