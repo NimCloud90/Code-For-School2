@@ -14,7 +14,31 @@ body {
     transition: background-color 0.3;
 }
 
-#clack:button {
-    background-color: rgb(71, 57, 57);
-    color: rgb(143, 125, 101);
+#button:hover {
+    background-color: rgb(77, 64, 64);
+    color: rgb(141, 128, 113);
 }
+
+#quote-display {
+    transition: 250s,
+}
+
+#words {
+    border-radius: 4px;
+    background-color: rgb(71, 57, 57);
+    color:antiquewhite;
+}
+
+#more {
+        background-color: rgb(70, 69, 69);
+        color:antiquewhite;
+        font-weight: lighter;
+        border-radius: 4px;
+        cursor: pointer;
+        transition: background-color 0.3;
+    }
+    
+    #more:hover {
+        background-color: rgb(77, 64, 64);
+        color: rgb(141, 128, 113);
+    }

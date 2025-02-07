@@ -111,3 +111,7 @@ document.getElementById('button').addEventListener('click', () => {
     document.getElementById('quote-display').innerText = `"${quotes[randomIndex]}"`;
 }
 );
+
+document.getElementById('more').addEventListener('click', () => {
+    document.getElementById('words').push.quotes;
+});
