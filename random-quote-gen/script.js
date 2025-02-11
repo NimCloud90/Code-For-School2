@@ -9,9 +9,7 @@ const quotes = [
     "'I kick him anyway it's still gonna hurt!' - Freya",
     "'The other pumpkins get angry at you.' -Freya",
     "'heyyyyy mam did you know i have a plus two to boat handling.' - el to the living boat",
-    "'*whispers* He's fucking my dad.' - Freya as Basil.",
     "'tactical hallucinogenic spaghetti.' - Freya",
-    "'Ronald Raegan, more like Ronald Rail me.' - I assume it's Jackson",
     "'PLease don't use WebP files.' - Jackson literally sobbing",
     "'Rio now has the will to live.' - Sky",
     "'DON'T BE RACIST!' - El as a talking dog",
@@ -26,10 +24,10 @@ const quotes = [
     "'I got spitroasted.' - Betty_Theft",
     "'I seduce the priest.' 'What do you say to him?' 'Do you know Garfield?' - Jackson, Sky, Jackson",
     "'Exactly, I'm Ratholic and they're protestrat.' - Sky as Rat Prince",
-    "'Please don’t live there' *rats leave after agreeing* - Shay as Emmy",
+    "'Please don't live there' *rats leave after agreeing* - Shay as Emmy",
     "'Don't kink shame. - Freya",
     "'The pidgey uses stab.' - Shay",
-    "'Windy isn’t a flirt, she just terrifies people with her mere presence.' - Freya",
+    "'Windy isn't a flirt, she just terrifies people with her mere presence.' - Freya",
     "'Can I help you with your crippling alcoholism?, 'No, it's fine.' - Raven (Cyrus) and Cree (El)",
     "'Big strong mommy woman.' 'Emy, throw the cat' - Freya & El",
     "'The more you stare at the sun, the more you begin to worry as it does not move' - El",
@@ -69,13 +67,11 @@ const quotes = [
     "'Want a turnip? Want a turnip? I took out the Nightshade just for you.' Daisy (El)",
     "'Yeah, yeah I've cried before' 'I haven't' - Shay & El",
     "'You know what, we made Splatoon cannon, Fuck it.' - El",
-    "'Out of character but does Thomas deserve man boobs?' - Cyrus with *El's slightly concerned noises*",
     "'I don't have money, I'm dead!' - El (Xander)",
     "'Who needs gun when you have knife!' - Shay",
     "'Poor traumatized white boy' - Shay",
     "'Why wouldn't you pick the orphans?' - Shay",
     "'Sylvester needs a boyfriend' 'Sylvester's an asshole' - Cyrus & El",
-    "'I'm sorry for this but while Gota calls Violet mom, Rose is calling Grim mommy.'  Freya",
     "'NO NO NO STOP NO' - literally everyone else",
     "'What is a dating' - Shay",
     "Lines going up and down, in a flannel way.",
@@ -99,7 +95,6 @@ const quotes = [
     "'I call them soul-ovens.' - Freya",
     "'We can't weave. We can't mine. We're rats.' 'You can cook.' 'What?' '*sings that stupid song from Ratatouille*' - El and Freya respectively again",
     "'I pulled this shit from the aether and you're giving it back!?' -EL",
-    "'Shaylee, how do you feel about Pussy?' - El",
     "'Shay, do you have the hots for the wrestler milf?' - Freya",
     "'We Stan an unbothred king.' - Shay",
     "'Oh look at me, I'm the one in the closet now, Nile!' - El",
@@ -112,6 +107,6 @@ document.getElementById('button').addEventListener('click', () => {
 }
 );
 
-document.getElementById('more').addEventListener('click', () => {
-    document.getElementById('words').push.quotes;
-});
+function addData() {
+    
+}

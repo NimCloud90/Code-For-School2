@@ -42,3 +42,8 @@ body {
         background-color: rgb(77, 64, 64);
         color: rgb(141, 128, 113);
     }
+
+    #roll {
+        height: 250px;
+        width: 250px;
+    }
