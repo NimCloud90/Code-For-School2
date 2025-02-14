@@ -44,6 +44,14 @@ body {
     }
 
     #roll {
-        height: 250px;
-        width: 250px;
+        height: 230px;
+        width: 230px;
+        padding: 10px;
+        border: solid white, 4px;
+        border-radius: 20px;
+        opacity: .8;
+    }
+
+    #roll:hover {
+        transform: scaleX(-1);
     }

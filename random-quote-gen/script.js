@@ -14,7 +14,6 @@ const quotes = [
     "'Rio now has the will to live.' - Sky",
     "'DON'T BE RACIST!' - El as a talking dog",
     "'Our mailbox number is Marty.' - Shay",
-    "'Stop! This isn't you! Blockout the haters: that's what this is giving.' - Sky",
     "So, whoever said William Afton is morally questionable: no. - Shay",
     "'If you want to murder a child, do it yourself.' - Jackson",
     "'i was sufficating in meat.' - el as robin",
@@ -29,19 +28,19 @@ const quotes = [
     "'The pidgey uses stab.' - Shay",
     "'Windy isn't a flirt, she just terrifies people with her mere presence.' - Freya",
     "'Can I help you with your crippling alcoholism?, 'No, it's fine.' - Raven (Cyrus) and Cree (El)",
-    "'Big strong mommy woman.' 'Emy, throw the cat' - Freya & El",
+    // "'Big strong mommy woman.' 'Emy, throw the cat' - Freya & El",
     "'The more you stare at the sun, the more you begin to worry as it does not move' - El",
     "'If you WAKE HIM UP, I HAVE A HAMMER.' - Shay",
     "'Dice maiden hates justice.' - Shay",
     "'Gay, GOcha' - Joan (El)",
-    "'Your a pussy.' '**yeah I am actually curie is a fucking cat**' - Freya and Cyrus",
-    "'Is Emy canonically a bimbo?' - Freya",
+    // "'Your a pussy.' '**yeah I am actually curie is a fucking cat**' - Freya and Cyrus",
+    // "'Is Emy canonically a bimbo?' - Freya",
     "*In a Russian accent* 'I'm struggling' - Rue (El)",
     "'C'mere ya little lightbulb.' - Shay",
     "'The solution to a problem involving a portal… *another portal*'- Freya",
     "'Do I know what the map does?' 'It's a map! Map does map!' - Freya, El",
     "'Emy's not the brightest tool in the crayon box.' - Shay",
-    "'Oh go ahead cuck, cuck all you want' - Freya",
+    // "'Oh go ahead cuck, cuck all you want' - Freya",
     "'You're not dying, thomas is!' '**NOOOOO**' - Cyrus & El+Shay",
     "*In an emotional scene, about ||suicide||* 'Don't you dare leave me hanging . . . Don't GHOST me' - El (Xannex)",
     "'I dunno, you guys ARE the ghostbusters now.' - El",
@@ -52,7 +51,6 @@ const quotes = [
     "'An abomination . . . I dunno' - El",
     "'Emy, you're good with melee . . . I just wish it wasn't on yourself.' - El",
     "'What if they're lying?' - Freya 'I'm on fire please!' - El",
-    "'No no, this is friendship.' - Cy",
     "'Isn't beer just a potion of alcoholism?' - Freya",
     "'Hey Nile, who the **fuck** is your wife?!' - Cyrus",
     "'I believe you and your weirdly slanted never.' - Shay",
@@ -71,7 +69,7 @@ const quotes = [
     "'Who needs gun when you have knife!' - Shay",
     "'Poor traumatized white boy' - Shay",
     "'Why wouldn't you pick the orphans?' - Shay",
-    "'Sylvester needs a boyfriend' 'Sylvester's an asshole' - Cyrus & El",
+    // "'Sylvester needs a boyfriend' 'Sylvester's an asshole' - Cyrus & El",
     "'NO NO NO STOP NO' - literally everyone else",
     "'What is a dating' - Shay",
     "Lines going up and down, in a flannel way.",
@@ -107,6 +105,4 @@ document.getElementById('button').addEventListener('click', () => {
 }
 );
 
-function addData() {
-    
-}
+quotes.push(words.innerText);
