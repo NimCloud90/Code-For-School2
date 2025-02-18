@@ -105,7 +105,7 @@ document.getElementById('button').addEventListener('click', () => {
 }
 );
 
-document.getElementById('more').addEventListener('click', test) 
+document.getElementById('more').addEventListener('click', AddQuote) 
 words = document.getElementById('words')
 function AddQuote() {quotes.push(words.value);
 };
