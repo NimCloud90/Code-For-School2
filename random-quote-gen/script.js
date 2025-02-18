@@ -83,7 +83,7 @@ const quotes = [
     "'Hey Shaylee, can you name all 5 orphans?' - Cyrus",
     "'Move over Curie, NILE'S the main character now!' - Shay",
     "'Ah yes, PE, the subject of which none of us are in.' - Shay",
-    "'If you keep pushing his buttons like that, he's going to end up calling you a slur.' 'What??!?' 'I mean, it'd have to be one I can say.' 'He's going to call you fatherless.' -El, Cyrus, El, Shay",
+    // "'If you keep pushing his buttons like that, he's going to end up calling you a slur.' 'What??!?' 'I mean, it'd have to be one I can say.' 'He's going to call you fatherless.' -El, Cyrus, El, Shay",
     "'My notes say... This is cookie clicker wtf?' - El",
     "'Why do you have a lobster.' 'He's my friend.' - El & Shay",
     "'Nile has started to build a pillow fort.' - Shay",
@@ -105,4 +105,9 @@ document.getElementById('button').addEventListener('click', () => {
 }
 );
 
-quotes.push(words.innerText);
+document.getElementById('more').addEventListener('click', test) 
+words = document.getElementById('words')
+function AddQuote() {quotes.push(words.value);
+};
+
+console.log(quotes);
