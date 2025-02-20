@@ -110,7 +110,7 @@ words = document.getElementById('words')
 function AddQuote() {quotes.push(words.value);
 };
 
-// console.log(quotes);
+console.log(quotes);
 
 // document.getElementById('no').addEventListener('click', DeleteQuote)
 //     no = document.getElementById('no')
