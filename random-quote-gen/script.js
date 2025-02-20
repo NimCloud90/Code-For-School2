@@ -114,5 +114,5 @@ function AddQuote() {quotes.push(words.value);
 
 // document.getElementById('no').addEventListener('click', DeleteQuote)
 //     no = document.getElementById('no')
-//     function DeleteQuote() {quotes.splice([quotes]);
+//     function DeleteQuote() {quotes.splice([quotes.value]);
 //     };
