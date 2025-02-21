@@ -1,3 +1,5 @@
+let randomIndex;
+
 const quotes = [
     "'Who's blood is that?' - El",
     "'Floors aren't supposed to move, they're supposed to *floor*.' - Freya",
@@ -108,13 +110,14 @@ function updateThis() {
 };
 
 document.getElementById('button').addEventListener('click', () => {
-    const randomIndex = Math.floor(Math.random() * quotes.length);
+    randomIndex = Math.floor(Math.random() * quotes.length);
 
     document.getElementById('quote-display').innerText = `"${quotes[randomIndex]}"`;
 }
 );
 
 document.getElementById('more').addEventListener('click', AddQuote) 
+
 words = document.getElementById('words')
 function AddQuote() {
     let grabbedArray = localStorage.getItem('update');
@@ -123,9 +126,10 @@ function AddQuote() {
     localStorage.setItem('update',JSON.stringify(altArray));
 };
 
-// document.getElementById('no').addEventListener('click', DeleteQuote)
-//     no = document.getElementById('words')
-//     function DeleteQuote() {quotes.pop()
-//     };
+function DeleteQuote() {
+    quotes.splice(randomIndex, 1);
+    localStorage.setItem('update',JSON.stringify(quotes));
+};
+document.getElementById('no').addEventListener('click', DeleteQuote);
 
 document.addEventListener('DOMContentLoaded',updateThis);
