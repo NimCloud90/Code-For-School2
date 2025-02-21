@@ -98,6 +98,15 @@ const quotes = [
     "'Oh look at me, I'm the one in the closet now, Nile!' - El",
 ];
 
+function updateThis() {
+    if (localStorage.getItem('update')) {
+        let grabbedArray = localStorage.getItem('update');
+        let altArray = JSON.parse(grabbedArray);
+        quotes = altArray;
+    } else
+    localStorage.setItem('update',JSON.stringify(quotes));
+};
+
 document.getElementById('button').addEventListener('click', () => {
     const randomIndex = Math.floor(Math.random() * quotes.length);
 
@@ -107,12 +116,16 @@ document.getElementById('button').addEventListener('click', () => {
 
 document.getElementById('more').addEventListener('click', AddQuote) 
 words = document.getElementById('words')
-function AddQuote() {quotes.push(words.value);
+function AddQuote() {
+    let grabbedArray = localStorage.getItem('update');
+    let altArray = JSON.parse(grabbedArray);
+    altArray.push(words.value);
+    localStorage.setItem('update',JSON.stringify(altArray));
 };
 
-console.log(quotes);
-
 // document.getElementById('no').addEventListener('click', DeleteQuote)
-//     no = document.getElementById('no')
-//     function DeleteQuote() {quotes.splice([quotes.value]);
+//     no = document.getElementById('words')
+//     function DeleteQuote() {quotes.pop()
 //     };
+
+document.addEventListener('DOMContentLoaded',updateThis);
