@@ -1,3 +1,5 @@
+// My collection of quotes
+
 let randomIndex;
 
 const quotes = [
@@ -100,6 +102,8 @@ const quotes = [
     "'Oh look at me, I'm the one in the closet now, Nile!' - El",
 ];
 
+// My update function
+
 function updateThis() {
     if (localStorage.getItem('update')) {
         let grabbedArray = localStorage.getItem('update');
@@ -109,12 +113,16 @@ function updateThis() {
     localStorage.setItem('update',JSON.stringify(quotes));
 };
 
+// My quote generator (randomized)
+
 document.getElementById('button').addEventListener('click', () => {
     randomIndex = Math.floor(Math.random() * quotes.length);
 
     document.getElementById('quote-display').innerText = `"${quotes[randomIndex]}"`;
 }
 );
+
+// My 'add' button/function
 
 document.getElementById('more').addEventListener('click', AddQuote) 
 
@@ -125,6 +133,8 @@ function AddQuote() {
     altArray.push(words.value);
     localStorage.setItem('update',JSON.stringify(altArray));
 };
+
+// My 'delete' button/function
 
 function DeleteQuote() {
     quotes.splice(randomIndex, 1);
