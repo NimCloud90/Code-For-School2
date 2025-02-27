@@ -137,6 +137,7 @@ function AddQuote() {
 // My 'delete' button/function
 
 function DeleteQuote() {
+    confirm('You sure you want to delete this one, you coward?');
     quotes.splice(randomIndex, 1);
     localStorage.setItem('update',JSON.stringify(quotes));
 };
