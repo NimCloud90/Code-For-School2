@@ -72,3 +72,11 @@ body {
     #roll:hover {
         transform: scaleX(-1);
     }
+
+    #main {
+        justify-content: center;
+        background-color: rgb(209, 207, 207);
+        border: rgb(61, 50, 50), 4px;
+        border-radius: 100px;
+        padding: 10px;
+    }
